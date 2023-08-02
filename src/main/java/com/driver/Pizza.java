@@ -51,7 +51,7 @@ public class Pizza {
         // your code goes here
 
         if(isCheeseAdded == false){
-            totalPrice = totalPrice + cheesePrice;
+            totalPrice = Integer.parseInt(totalPrice + cheesePrice+"\n");
             isCheeseAdded = true;
 
         }
@@ -61,7 +61,7 @@ public class Pizza {
     public void addExtraToppings(){
         // your code goes here
         if(isToppingAdded == false){
-            totalPrice = totalPrice + toppingPrice;
+            totalPrice = Integer.parseInt(totalPrice + toppingPrice+"\n");
             isToppingAdded = true;
         }
     }
@@ -70,7 +70,7 @@ public class Pizza {
         // your code goes here
         if(!isPaperBagAdded){
             isPaperBagAdded = true;
-            totalPrice = totalPrice + paperBagPrice;
+            totalPrice = Integer.parseInt(totalPrice + paperBagPrice+"\n");
 
         }
 
